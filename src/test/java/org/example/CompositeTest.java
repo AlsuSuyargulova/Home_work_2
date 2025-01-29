@@ -12,7 +12,7 @@ public class CompositeTest extends AbstractTest{
     }
 
     @Override
-    protected Component createComposite(String name) {
+    protected Composite createComposite(String name) {
         return new Composite(name);
     }
     @Test
